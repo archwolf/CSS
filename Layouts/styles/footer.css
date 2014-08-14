@@ -1,0 +1,44 @@
+#main{
+    background:#234465;
+    color:white;
+    width:1250px;
+    margin:0 auto;
+    height:300px;
+    flex-wrap:  wrap;
+}
+section{
+    margin-top:40px;
+    margin-right:10px;
+    float:left;
+    display:inline-block;
+    width:200px;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+section:first-child{
+    margin-left:20px;
+}
+.box{
+    width:90%;
+    border:2px solid #b07d24;
+    margin:5px;
+    text-align:center;
+    padding:15px 0;
+}
+section h3{
+    text-transform:uppercase;
+    color:#b37d28;
+    font-size:0.7em;
+    font-weight:bold;
+}
+#lastSection{
+    background:#e9ecef;
+    color:black;
+    width:250px;
+    
+}
+.fb-like-box {
+    background: white;
+}
