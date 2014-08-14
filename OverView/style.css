@@ -1,0 +1,130 @@
+body{
+    background:#00923e;
+}
+.wrapper{
+    width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 10px;
+}
+table{
+    background:white;
+    border:solid 1px black;
+    border-radius:5px;
+    border-collapse:collapse;
+}
+
+ td, tr {
+    border: 1px solid black;
+    
+}
+table tr:nth-child(2n+3)
+{
+    background:#c8c8c8;
+}
+tr:first-child{
+    background:#f8c711;
+    font-weight:bold;
+    font-size:1.2em;
+}
+.country{
+    min-width:150px;
+    text-align:right;
+}
+.result{
+    width:50px;
+    text-align:center;
+}
+.country2{
+    min-width:150px;
+    text-align:left;
+}
+.resultbet{
+    width:100px;
+}
+.group{
+    width:50px;
+    text-align:center;
+}
+.bet{
+    min-width:50px;
+}
+form{
+    width:100px;
+}
+input{
+    width:30px;
+    display:inline-block;
+}
+#brazil{
+     content:url(images/brazils.jpg);
+     width:15px; 
+     float:right;
+     padding: 5px 4px;
+}
+#mexico{
+     content:url(images/mexico.png);
+     width:15px; 
+     float:left;
+     padding: 5px 4px;
+}
+#spain{
+     content:url(images/spain.png);
+     width:15px; 
+     float:right;
+     padding: 5px 4px;
+}
+#netherlands{
+     content:url(images/netherlands.jpg);
+     width:15px; 
+     float:left;
+     padding: 5px 4px;
+}
+#italy{
+     content:url(images/italy.png);
+     width:15px; 
+     float:right;
+     padding: 5px 4px;
+}
+#england{
+     content:url(images/england.jpg);
+     width:15px; 
+     float:left;
+     padding: 5px 4px;
+}
+#argentina{
+     content:url(images/argentina.png);
+     width:15px; 
+     float:right;
+     padding: 5px 4px;
+}
+#bosnia{
+     content:url(images/bosnia.jpg);
+     width:15px; 
+     float:left;
+     padding: 5px 4px;
+}
+#germany{
+     content:url(images/germany.jpg);
+     width:15px; 
+     float:right;
+     padding: 5px 4px;
+}
+#portugal{
+     content:url(images/portugal.jpg);
+     width:15px; 
+     float:left;
+     padding: 5px 4px;
+}
+input[type='submit']{
+    width:25px;
+    moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    background:red;
+    border:solid 1px black;
+    text-align:left;
+    color:white;
+    font-size:0.6em;
+
+}
+
