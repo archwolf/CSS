@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pretty Website</title>
+    <link href="style/website.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="imgText">In the twilight of one's life</div>
+            <div><img src="images/background.jpg" /></div>
+
+            <div id="menu">
+                <div class="subMenu"><a href="#">home</a></div>
+                <div class="subMenu"><a href="#">about</a></div>
+                <div class="subMenu"><a href="#">blod</a></div>
+                <div class="subMenu"><a href="#">gallery</a></div>
+                <div class="subMenu"><a href="#">contacts</a></div>
+            </div>
+        </header>
+        <div id="left">
+            <section>
+                <h1>WELCOME TO HOME PAGE</h1>
+                <strong>Lorem ipsum dolor is it amet consectetur adiiscing edint asd asd asd asd  </strong>
+                sd asd ads asd asd asd asdfsaffdfgdafgad sadf sg ag adfg ag sdg adfg afg adfg dafg da da a a a    gdfg df adfg ag adg
+                a fgad fga fdg adfgadfgadfg dafgggggggggggggggggafgdfag dg adfg dafgdafgadg adgdafga
+                adfg adfgadfgafgadg dfgadfgdfdfg
+            </section>
+            <section>
+                <h1>Our Free Products</h1>
+                <article>
+                    <div><img src="images/1.jpg" alt="" /></div>
+                    <div><strong>Just try to find me</strong></div><br />
+                    <div>
+                        orem ipsum dolor is it amet consectetur adiiscing edint asd asd asd asd
+                        sd asd ads asd asd asd asdfsaffdfgdafgad sadf sg ag adfg ag sdg adfg afg adfg dafg da da a a a    gdfg df adfg ag adg
+                        a fgad fga fdg adfgadfgadfg dafgggggggggggggggggafgdfag dg adfg dafgdafgadg adgdafga
+                        adfg adfgadfgafgadg dfgadfgdfdfg
+                    </div>
+                </article>
+                <article>
+                    <div><img src="images/2.jpg" alt="" /></div>
+                    <div><strong>Just try to find me</strong></div><br />
+                    <div>
+                        orem ipsum dolor is it amet consectetur adiiscing edint asd asd asd asd
+                        sd asd ads asd asd asd asdfsaffdfgdafgad sadf sg ag adfg ag sdg adfg afg adfg dafg da da a a a    gdfg df adfg ag adg
+                        a fgad fga fdg adfgadfgadfg dafgggggggggggggggggafgdfag dg adfg dafgdafgadg adgdafga
+                        adfg adfgadfgafgadg dfgadfgdfdfg
+                    </div>
+                </article>
+                <article>
+                    <div><img src="images/3.jpg" alt="" /></div>
+                    <div><strong>Just try to find me</strong></div><br />
+                    <div>
+                        orem ipsum dolor is it amet consectetur adiiscing edint asd asd asd asd
+                        sd asd ads asd asd asd asdfsaffdfgdafgad sadf sg ag adfg ag sdg adfg afg adfg dafg da da a a a    gdfg df adfg ag adg
+                        a fgad fga fdg adfgadfgadfg dafgggggggggggggggggafgdfag dg adfg dafgdafgadg adgdafga
+                        adfg adfgadfgafgadg dfgadfgdfdfg
+                    </div>
+                </article>
+            </section>
+        </div>
+        <div id="right">
+            <aside class="main">
+                <h1>News</h1>
+                <div>
+                    <strong>August 2,2009</strong><br />
+                    Allquam eget varius arcu.<br />
+                    <div class="link"><a href="#">see more..</a></div>
+                </div>
+                <div>
+                    <strong>August 2,2009</strong><br />
+                    Allquam eget varius arcu.<br />
+                    <div class="link"><a href="#">see more..</a></div>
+                </div>
+                <div>
+                    <strong>August 2,2009</strong><br />
+                    Allquam eget varius arcu.<br />
+                    <div class="link"><a href="#">see more..</a></div>
+                </div>
+            </aside>
+            <aside class="main" style="background:#ffffff;">
+                <h1>News</h1>
+                <div>
+                    <strong>August 2,2009</strong><br />
+                    Allquam eget varius arcu. Allquam eget varius arcu.  Allquam eget varius arcu.
+                    Allquam eget varius arcu. Allquam eget varius arcu. Allquam eget varius arcu.
+                    Allquam eget varius arcu. Allquam eget varius arcu. Allquam eget varius arcu.
+                    Allquam eget varius arcu. Allquam eget varius arcu. Allquam eget varius arcu.<br />
+                    <div class="link"><a href="#">see all testimonials..</a></div>
+                </div>
+
+            </aside>
+        </div>
+        <footer>
+            In the twilight of one's life Copyright 2 August 2009 | XHTML | CSS
+        </footer>
+    </div>
+</body>
+</html>
