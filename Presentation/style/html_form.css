@@ -1,0 +1,81 @@
+#main{
+    padding-left:20px;
+    color:white;
+    width:500px;
+    border-radius:5px;
+    background-image:url(../images/formBackground.jpg); 
+    background-position:center;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+.block{
+    background-color: rgba(192,192,192,0.4);
+    position:relative;
+    border:1px solid white;
+    border-radius:5px;
+    display:inline-block;
+    width:90%;
+    
+    padding-top:10px;
+    color:black;
+}
+ input::after{
+        opacity:0.6;
+}
+.text {
+    width:100px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20%;
+}
+.forma {
+    opacity: 1;
+   background: transparent;
+   z-index: 1000;
+}
+input{
+   
+    width:40%;
+    margin-bottom:5px;
+    margin-top:5px;
+    border-radius:5px;
+}
+div{
+    margin-bottom:10px;
+}
+textarea{
+    opacity:1;
+    height:100px;
+    width:40%;
+    display:inline-block;
+    border-radius:5px;
+}
+#radioa input{
+    width:20px;
+    margin-left:40px;
+}
+#cardtype{
+        margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20%;
+}
+#submit{
+    margin-top:20px;
+    margin-left:174px;
+    padding-top:10px;
+    text-align:center;
+    background:#04152f;
+    border-radius:20px;
+    width:100px;
+    height:30px;
+}
+img{
+    width:15px;
+    height:15px;
+}
