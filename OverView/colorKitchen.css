@@ -1,0 +1,271 @@
+body{
+    background-image:url(images/background.jpg);
+    background-position:center;
+}
+#wrapper{
+      width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 0;
+}
+#head{
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    display:inline-block;
+    margin:-10px -20px 0 -20px;
+    margin-bottom:50px;
+}
+.left{
+    width:32%;
+    height:100%;
+    float:left;
+    background:#ff0000;
+}
+.center{
+    float:left;
+    width:32%;
+    height:100%;
+    background:#008000;
+    color:#cee700;
+    font-size:1.5em;
+    text-align:center;
+}
+.right{
+    margin-right:-20px;
+     height:100%;
+    float:left;
+    width:36%;
+    background:#0000ff;
+}
+aside {
+    width:10%;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 30px;
+    float: left;
+    text-align: left;
+    opacity: 0.8;
+}
+.web{
+    color:black;
+}
+.web a:link{
+    color:black;
+}
+.web a:visited{
+    color:#b3afae;
+}
+.web:target {
+
+}
+.web:visited{
+    color:#b5bcaf;
+}
+.web:hover{
+    background:#cf212f;
+    width:100%;
+    color:white;
+    border-radius:5px;   
+}
+.safe{
+    color:black;
+}
+.safe a:link{
+    color:black;
+}
+.safe a:visited{
+    color:#b3afae;
+}
+.safe:visited{
+    color:#b5bcaf;
+}
+.safe:hover{
+    background:#eb8431;
+    width:100%;
+    border-radius:5px;   
+}
+.rgb{
+    color:black;
+}
+.rgb a:link{
+    color:black;
+}
+.rgb a:visited{
+    color:#b3afae;
+}
+.rgb:visited{
+    color:#b5bcaf;
+}
+.rgb:hover{
+    background:#eccc33;
+    width:100%;
+    border-radius:5px;   
+}
+.rgba{
+    color:black;
+}
+.rgba a:link{
+    color:black;
+}
+.rgba a:visited{
+    color:#b3afae;
+}
+.rgba:visited{
+    color:#b5bcaf;
+}
+.rgba:hover{
+    background:#006600;
+    width:100%;
+    color:white;
+    border-radius:5px;   
+}
+.hsv{
+    color:black;
+}
+.hsv a:link{
+    color:black;
+}
+.hsv a:visited{
+    color:#b3afae;
+}
+.hsv:visited{
+    color:#b5bcaf;
+}
+.hsv:hover{
+    background:#3000cc;
+    width:100%;
+    color:white;
+    border-radius:5px;   
+}
+.ipsum{
+    color:black;
+}
+.ipsum a:link{
+    color:black;
+}
+.ipsum a:visited{
+    color:#b3afae;
+}
+
+.ipsum:visited{
+    color:#b5bcaf;
+}
+.ipsum:hover{
+    background:#67326a;
+    width:100%;
+    color:white;
+    border-radius:5px;   
+}
+ul{
+    padding:20px
+}
+li{
+    margin-bottom:5px;
+    list-style-type:none;
+}
+li:first-child{
+    color:#664120;
+    text-decoration:underline;
+    font-weight:bold;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+
+}
+#webCol{
+    background:#ff0000;
+    color:white;
+    margin:10px 10px;
+    min-width:90%;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:2em;
+    border-radius:5px;
+    text-align:left;
+    height:50px;
+}
+#webSafe{
+    background:#ffa500;
+    margin:10px 10px;
+    min-width:90%;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:2em;
+    border-radius:5px;
+    text-align:left;
+    height:50px;
+}
+#rgbCol{
+    background:#ffff00;
+    margin:10px 10px;
+    min-width:90%;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:2em;
+    border-radius:5px;
+    text-align:left;
+    height:50px;
+}
+#rgbSpace{
+    background:#008000;
+    color:white;
+     margin:10px 10px;
+    min-width:90%;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:2em;
+    border-radius:5px;
+    text-align:left;
+    height:50px;
+}
+#hsl{
+    background:#0000ff;
+    color:white;
+     margin:10px 10px;
+    min-width:90%;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:2em;
+    border-radius:5px;
+    text-align:left;
+    height:50px;
+}
+#lorem {
+    background:#800080;
+    color:white;
+    margin:10px 10px;
+    min-width:90%;
+    padding-top:10px;
+    padding-left:10px;
+    font-size:2em;
+    border-radius:5px;
+    text-align:left;
+    height:50px;
+}
+section{
+    border-radius:5px;
+    margin-bottom:50px;
+    float:right;
+    width:70%;
+    height:20%;
+    background:white;
+    color:black;
+    opacity:0.8;
+    margin-right:10%;
+}
+p{
+    padding-left:10px;
+    text-align:left;
+}
+p:first-letter{
+    font-weight:bold;
+    font-size:40px;
+}
+p:first-line{
+    font-style:italic;
+}
