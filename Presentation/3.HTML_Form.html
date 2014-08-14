@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HTML Form</title>
+    <link href="style/html_from.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <h3>Step 1:Your details</h3>
+        <div class="block">
+            <div class="text">Name</div>
+            <div >
+                <form>
+                    <input type="text" name="name" placeholder="First and last name" />
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Email</div>
+            <div>
+                <form>
+                    <input type="email" name="email" placeholder="example@domain.com" />
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Phone</div>
+            <div>
+                <form>
+                    <input type="tel" name="phone" placeholder="e.g. +44750000000" />
+                </form>
+            </div>
+        </div>
+        <h3>Step 2:Delivery address</h3>
+        <div class="block">
+            <div class="text">Adress</div>
+            <div>
+                <textarea rows="4" cols="50">
+                  
+                </textarea>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Post Code</div>
+            <div>
+                <form>
+                    <input type="text" name="postCode" />
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Country</div>
+            <div>
+                <form>
+                    <input type="text" name="country" />
+                </form>
+            </div>
+        </div>
+        <h3>Step 3:Card Details</h3>
+        <div class="block">
+            <div id="cardtype">Card Type</div><br />
+            <div>
+                <form id="radioa">
+                   
+                    <input type="radio" name="visa"  />
+                    <img src="images/visa.jpg" />
+                    <label for="visa">VISA</label>
+                   
+                    <input type="radio" name="AmEx" />
+                    <img src="images/amex.jpg" />
+                    <label for="AmEx">AmEx</label>
+                    
+                    <input type="radio" name="mastercard" />
+                    <img src="images/mastercard.png" />
+                    <label for="mastercard">Mastercard</label>
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Card Numer</div>
+            <div>
+                <form>
+                    <input type="text" name="cardNumber" />
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Security Code</div>
+            <div>
+                <form>
+                    <input type="text" name="securityCode" />
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="text">Name on card</div>
+            <div>
+                <form>
+                    <input type="text" name="cardNumber" placeholder="exact name as on the card"/>
+                </form>
+            </div>
+        </div>
+        <div id="submit">BUY IT!</div>
+    </div>
+</body>
+</html>
