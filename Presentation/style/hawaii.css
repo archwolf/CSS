@@ -1,0 +1,63 @@
+@font-face {
+    font-family: animated;
+    src: url(Animated.ttf);
+
+}
+#main{
+    background-image:url("../images/HawaiiBackground.png"),
+    -webkit-radial-gradient(26% 24%, circle closest-corner, #eaebe4, #edff47 41%,#e8e7dc 59%,#3a75cf 79%),
+	-webkit-linear-gradient(left, #509FDF , #0069DB);
+    	-webkit-background-size: 900px 600px;
+	background-repeat: no-repeat;
+
+    background-repeat:no-repeat;
+     width: 700px;
+            margin: 0 auto;
+            text-align: left;
+            padding:0 0;
+            position:relative;
+            padding-bottom:500px;
+            
+}
+img{
+    width:200px;
+}
+
+.vlado{
+    margin:270px 0 0 20px;
+    display:inline-block;
+}
+.petia{
+    margin:-298px 122px;
+}
+.tedi{
+    margin:100px 200px;
+    display:inline-block;
+}
+.tedi img{
+    width:150px;
+}
+.nakov{
+      margin:-445px 365px;
+}
+.nakov img{
+    width:170px;
+}
+.alex{
+    margin:149px 437px;
+}
+.alex img{
+    width:170px;
+}
+.vladi{
+      margin:-382px 549px;
+}
+.vladi img{
+    width:150px;
+}
+#text{
+    text-align:right;
+    font-family:animated;
+    color:#c9ae48;
+        font-size:35px;
+}
